@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #ff5c77 0%,#00b7c1 100%);
+  background: linear-gradient(45deg, #fdfcfc 0%,#f89602 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,4 +70,8 @@ h2 {
 .tecla.ativa:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+.imagem{
+  width: 100px;
 }
