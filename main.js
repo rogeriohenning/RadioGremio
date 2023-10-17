@@ -1,4 +1,5 @@
 function tocaSomVitoria(){
     document.querySelector('#som_tecla_vitoria').play();
 }
-document.querySelector('.tecla_vitoria') .onclick=tocaSomVitoria;
+const listaDeTeclas= document.querySelectorAll(".tecla");
+listaDeTeclas[0].onclick=tocaSomVitoria;
